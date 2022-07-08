@@ -3,7 +3,7 @@ import pickle
 import gzip
 
 # 載入Model
-with gzip.open('app/model/xgboost-AF.pgz', 'r') as f:
+with gzip.open('app/model/xgboost-af.pgz', 'r') as f:
     xgboostModel = pickle.load(f)
 
 
